@@ -22,3 +22,5 @@ To train the AI, first open a Python shell
 The `num_epochs` can be configured as needed to refine the model. I used a value of 15.
 
 When training is complete, a file `textgenrnn_weights.hdf5` will be created. Set the bot token properly and you're good to go!
+
+You can also adjust the `temperature` kwarg within the generate function between 0 and 1.0; values near 0 will stick closer to the original source, whereas values closer to 1.0 will be more creative.
